@@ -1,0 +1,118 @@
+{
+  "site": {
+    "name": "Swetha Kambham",
+    "tagline": "Editorial and commercial modeling — New York & Philadelphia",
+    "email": "swethabookings@gmail.com",
+    "instagramHandle": "@kambhamswetha7",
+    "instagramUrl": "https://instagram.com/kambhamswetha7",
+    "location": "New York & Philadelphia",
+    "representation": "Currently freelance"
+  },
+  "home": {
+    "heroImage": "/images/general/20260815-173601.jpg",
+    "heroCaption": "Philadelphia Streets, 2026",
+    "highlights": [
+      "/images/general/img-9999.jpg",
+      "/images/general/img-9948.jpg",
+      "/images/general/img-0003.jpg",
+      "/images/general/img-0004.jpg"
+    ]
+  },
+  "work": {
+    "projects": [
+      {
+        "id": "philadelphia-streets",
+        "title": "Philadelphia Streets",
+        "category": "Street",
+        "cover": "/images/general/20260815-165402.jpg",
+        "images": [
+          "/images/general/20260815-154452.jpg",
+          "/images/general/20260815-154931.jpg",
+          "/images/general/20260815-164629.jpg",
+          "/images/general/20260815-165042.jpg",
+          "/images/general/20260815-165318.jpg",
+          "/images/general/20260815-165325.jpg",
+          "/images/general/20260815-165331.jpg",
+          "/images/general/20260815-165402.jpg",
+          "/images/general/20260815-172904.jpg",
+          "/images/general/20260815-172933.jpg",
+          "/images/general/20260815-173138.jpg",
+          "/images/general/20260815-173159.jpg",
+          "/images/general/20260815-173525.jpg",
+          "/images/general/20260815-173601.jpg",
+          "/images/general/20260815-173654.jpg",
+          "/images/general/img-0102.jpg",
+          "/images/general/img-0104.jpg"
+        ]
+      },
+      {
+        "id": "city-nights",
+        "title": "City Nights",
+        "category": "Editorial",
+        "cover": "/images/general/img-0308.jpg",
+        "images": [
+          "/images/general/img-0275.jpg",
+          "/images/general/img-0278.jpg",
+          "/images/general/img-0308.jpg",
+          "/images/general/img-1219.jpg",
+          "/images/general/img-1221.jpg",
+          "/images/general/img-1229.jpg",
+          "/images/general/img-9245.jpg",
+          "/images/general/img-9257.jpg",
+          "/images/general/img-9262.jpg"
+        ]
+      },
+      {
+        "id": "uptown-avenue",
+        "title": "Uptown Avenue",
+        "category": "Lifestyle",
+        "cover": "/images/general/img-9298.jpg",
+        "images": [
+          "/images/general/img-1525.jpg",
+          "/images/general/img-1532.jpg",
+          "/images/general/img-9298.jpg"
+        ]
+      },
+      {
+        "id": "reading-room",
+        "title": "Reading Room",
+        "category": "Editorial",
+        "cover": "/images/general/img-9766.jpg",
+        "images": [
+          "/images/general/img-9764-1.jpg",
+          "/images/general/img-9766.jpg"
+        ]
+      },
+      {
+        "id": "rose-and-rouge",
+        "title": "Rose & Rouge",
+        "category": "Lifestyle",
+        "cover": "/images/general/img-9887.jpg",
+        "images": [
+          "/images/general/img-9817.jpg",
+          "/images/general/img-9818.jpg",
+          "/images/general/img-9851.jpg",
+          "/images/general/img-9879.jpg",
+          "/images/general/img-9887.jpg"
+        ]
+      }
+    ]
+  },
+  "digitals": [
+    { "src": "/images/digitals/img-0202.jpg", "label": "Front" },
+    { "src": "/images/digitals/img-0208.jpg", "label": "3/4" },
+    { "src": "/images/digitals/img-0182.jpg", "label": "Profile" },
+    { "src": "/images/digitals/img-0193.jpg", "label": "Back" },
+    { "src": "/images/digitals/img-0127.jpg", "label": "Close-Up" }
+  ],
+  "about": {
+    "bio": "Swetha Kambham is a model based between New York and Philadelphia, working across editorial, street style, and lifestyle work. Currently freelance and open to bookings in both cities and beyond.",
+    "images": [
+      "/images/general/img-9999.jpg",
+      "/images/general/img-9851.jpg"
+    ]
+  },
+  "motion": {
+    "note": "Reel coming soon."
+  }
+}

@@ -1,0 +1,82 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+publish_mode: simple
+
+collections:
+  - name: "site"
+    label: "Site"
+    files:
+      - name: "settings"
+        label: "Site Content"
+        file: "content/site.json"
+        fields:
+          - label: "Contact Info"
+            name: "site"
+            widget: "object"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Tagline (shown on Home)", name: "tagline", widget: "string" }
+              - { label: "Booking Email", name: "email", widget: "string" }
+              - { label: "Instagram Handle", name: "instagramHandle", widget: "string" }
+              - { label: "Instagram URL", name: "instagramUrl", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Representation", name: "representation", widget: "string" }
+
+          - label: "Home Page"
+            name: "home"
+            widget: "object"
+            fields:
+              - { label: "Hero Image", name: "heroImage", widget: "image" }
+              - { label: "Hero Caption", name: "heroCaption", widget: "string" }
+              - label: "Highlights Strip"
+                name: "highlights"
+                widget: "list"
+                field: { label: "Image", name: "image", widget: "image" }
+
+          - label: "Work Projects"
+            name: "work"
+            widget: "object"
+            fields:
+              - label: "Projects"
+                name: "projects"
+                widget: "list"
+                summary: "{{title}} ({{category}})"
+                fields:
+                  - { label: "ID (short, no spaces, e.g. paris-editorial)", name: "id", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Category", name: "category", widget: "string", hint: "e.g. Street, Editorial, Lifestyle — used for filtering" }
+                  - { label: "Cover Image", name: "cover", widget: "image" }
+                  - label: "Photos in this project"
+                    name: "images"
+                    widget: "list"
+                    field: { label: "Image", name: "image", widget: "image" }
+
+          - label: "Digitals"
+            name: "digitals"
+            widget: "list"
+            summary: "{{label}}"
+            fields:
+              - { label: "Image", name: "src", widget: "image" }
+              - { label: "Label", name: "label", widget: "string", hint: "e.g. Front, 3/4, Profile, Back, Close-Up" }
+
+          - label: "About Page"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Bio", name: "bio", widget: "text" }
+              - label: "Photos"
+                name: "images"
+                widget: "list"
+                field: { label: "Image", name: "image", widget: "image" }
+
+          - label: "Motion Page"
+            name: "motion"
+            widget: "object"
+            fields:
+              - { label: "Placeholder Note", name: "note", widget: "string" }
+              - { label: "Video URL (optional, e.g. YouTube/Vimeo embed link)", name: "videoUrl", widget: "string", required: false }
