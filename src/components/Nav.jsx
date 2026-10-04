@@ -9,6 +9,8 @@ const LINKS = [
   { to: "/about", label: "About" },
   { to: "/motion", label: "Motion" },
   { to: "/contact", label: "Contact" },
+  // Local-only photo manager (see src/pages/Upload.jsx).
+  ...(import.meta.env.DEV ? [{ to: "/upload", label: "Upload" }] : []),
 ];
 
 export default function Nav() {
