@@ -5,7 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
-import { IMAGE_EXT, slugify } from "./lib/images.mjs";
+import { IMAGE_EXT, slugify } from "./lib/names.mjs";
 
 const run = promisify(execFile);
 const root = path.resolve(import.meta.dirname, "..");

@@ -1,18 +1,10 @@
 import sharp from "sharp";
 import heicConvert from "heic-convert";
 
+export { IMAGE_EXT, slugify } from "./names.mjs";
+
 const MAX_DIM = 2200;
 const QUALITY = 82;
-
-export const IMAGE_EXT = /\.(jpe?g|png|webp|heic|heif)$/i;
-
-export function slugify(name) {
-  return name
-    .replace(/\.[^.]+$/, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-}
 
 // Resize + compress any supported photo (including iPhone HEIC) into a web-ready JPEG.
 export async function toWebJpeg(buf, filename) {
