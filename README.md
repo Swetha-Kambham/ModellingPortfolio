@@ -37,15 +37,30 @@ Setup (one-time, in the Netlify dashboard for this site):
    to set a password.
 5. Visit `https://<your-site>.netlify.app/admin/` and log in.
 
-## Adding more photos later
+## Adding more photos (easiest way)
 
-Drop new images anywhere under `public/images/` (or upload via `/admin`, which
-saves into `public/images/`), then reference the path in `content/site.json`
-(or add them through the relevant list in `/admin`).
-
-If you have new HEIC photos to convert/resize in bulk, put them in `raw/general`
-or `raw/digitals` and run:
+Photos are **not** linked to Google Drive — the site serves its own copies from
+`public/images/`, and `content/site.json` lists which photo goes in which project.
+To add or change photos, use the local upload page:
 
 ```
-npm run process-images
+npm install        # first time only
+npm run dev
 ```
+
+Open http://localhost:5173/#/upload (or click **Upload** in the menu — it only
+appears while running locally, never on the live site). There you can:
+
+- **+ Add photos** to any project (or drag photos onto it). JPG, PNG and iPhone
+  HEIC all work; they're resized and compressed automatically.
+- Create a **New project** (title + category, e.g. Fashion / Commercial).
+- Rename a project, pick its **Cover**, reorder (← →) or remove (×) photos.
+
+Check the result on the site at http://localhost:5173, then click
+**Publish (commit & push)**. Netlify redeploys once the change reaches the
+branch it builds from (usually `main`).
+
+### Bulk import from a folder
+
+Put photos in `raw/<folder-name>/` and run `npm run process-images`; they land in
+`public/images/<folder-name>/`. Then add their paths to `content/site.json`.

@@ -21,6 +21,129 @@
   "work": {
     "projects": [
       {
+        "id": "silk-saree",
+        "title": "Silk Saree",
+        "category": "Commercial",
+        "cover": "/images/commercial/20260904-170749.jpg",
+        "images": [
+          "/images/commercial/20260904-170749.jpg",
+          "/images/commercial/20260904-170755.jpg",
+          "/images/commercial/20260904-170816.jpg",
+          "/images/commercial/20260904-170820.jpg",
+          "/images/commercial/20260904-170920.jpg",
+          "/images/commercial/20260904-170942.jpg",
+          "/images/commercial/20260904-171533.jpg",
+          "/images/commercial/20260904-172727.jpg"
+        ]
+      },
+      {
+        "id": "blush-stripes",
+        "title": "Blush Stripes",
+        "category": "Commercial",
+        "cover": "/images/commercial/20260911-212720.jpg",
+        "images": [
+          "/images/commercial/20260911-212054.jpg",
+          "/images/commercial/20260911-212059.jpg",
+          "/images/commercial/20260911-212300.jpg",
+          "/images/commercial/20260911-212318.jpg",
+          "/images/commercial/20260911-212600.jpg",
+          "/images/commercial/20260911-212627.jpg",
+          "/images/commercial/20260911-212632.jpg",
+          "/images/commercial/20260911-212700.jpg",
+          "/images/commercial/20260911-212705.jpg",
+          "/images/commercial/20260911-212720.jpg",
+          "/images/commercial/20260911-212921.jpg",
+          "/images/commercial/20260911-212928.jpg",
+          "/images/commercial/20260911-213304.jpg",
+          "/images/commercial/20260911-213402.jpg",
+          "/images/commercial/20260911-213449.jpg",
+          "/images/commercial/20260911-213453.jpg"
+        ]
+      },
+      {
+        "id": "summer-white",
+        "title": "Summer White",
+        "category": "Commercial",
+        "cover": "/images/commercial/20260926-194544.jpg",
+        "images": [
+          "/images/commercial/20260926-193927.jpg",
+          "/images/commercial/20260926-193958.jpg",
+          "/images/commercial/20260926-194004.jpg",
+          "/images/commercial/20260926-194038.jpg",
+          "/images/commercial/20260926-194040.jpg",
+          "/images/commercial/20260926-194051.jpg",
+          "/images/commercial/20260926-194111.jpg",
+          "/images/commercial/20260926-194121.jpg",
+          "/images/commercial/20260926-194427.jpg",
+          "/images/commercial/20260926-194544.jpg",
+          "/images/commercial/20260926-194856.jpg"
+        ]
+      },
+      {
+        "id": "brocade",
+        "title": "Brocade",
+        "category": "Fashion",
+        "cover": "/images/fashion/20260909-204425.jpg",
+        "images": [
+          "/images/fashion/20260909-204420.jpg",
+          "/images/fashion/20260909-204425.jpg",
+          "/images/fashion/20260909-204428.jpg",
+          "/images/fashion/20260909-204555.jpg"
+        ]
+      },
+      {
+        "id": "powder-blue",
+        "title": "Powder Blue",
+        "category": "Fashion",
+        "cover": "/images/fashion/20260925-235540.jpg",
+        "images": [
+          "/images/fashion/20260925-234849.jpg",
+          "/images/fashion/20260925-234911.jpg",
+          "/images/fashion/20260925-235121.jpg",
+          "/images/fashion/20260925-235210.jpg",
+          "/images/fashion/20260925-235540.jpg",
+          "/images/fashion/20260925-235655.jpg",
+          "/images/fashion/20260925-235714.jpg",
+          "/images/fashion/20260925-235812.jpg",
+          "/images/fashion/20260925-235819.jpg",
+          "/images/fashion/20260925-235854.jpg",
+          "/images/fashion/20260925-235902.jpg",
+          "/images/fashion/20260925-235912.jpg",
+          "/images/fashion/20260925-235955.jpg",
+          "/images/fashion/20260925-235957.jpg",
+          "/images/fashion/20260925-235959.jpg",
+          "/images/fashion/20260926-000010.jpg"
+        ]
+      },
+      {
+        "id": "cocoa-knit",
+        "title": "Cocoa Knit",
+        "category": "Fashion",
+        "cover": "/images/fashion/20260927-231440.jpg",
+        "images": [
+          "/images/fashion/20260927-224839.jpg",
+          "/images/fashion/20260927-224843.jpg",
+          "/images/fashion/20260927-225100.jpg",
+          "/images/fashion/20260927-225159.jpg",
+          "/images/fashion/20260927-225214.jpg",
+          "/images/fashion/20260927-225518.jpg",
+          "/images/fashion/20260927-230222.jpg",
+          "/images/fashion/20260927-230412.jpg",
+          "/images/fashion/20260927-231033.jpg",
+          "/images/fashion/20260927-231229.jpg",
+          "/images/fashion/20260927-231434.jpg",
+          "/images/fashion/20260927-231438.jpg",
+          "/images/fashion/20260927-231440.jpg",
+          "/images/fashion/20260927-231517.jpg",
+          "/images/fashion/20260927-231530.jpg",
+          "/images/fashion/20260927-233124.jpg",
+          "/images/fashion/20260927-233502.jpg",
+          "/images/fashion/20260927-233515.jpg",
+          "/images/fashion/20260927-233552.jpg",
+          "/images/fashion/20260927-233620.jpg"
+        ]
+      },
+      {
         "id": "philadelphia-streets",
         "title": "Philadelphia Streets",
         "category": "Street",
@@ -99,11 +222,26 @@
     ]
   },
   "digitals": [
-    { "src": "/images/digitals/img-0202.jpg", "label": "Front" },
-    { "src": "/images/digitals/img-0208.jpg", "label": "3/4" },
-    { "src": "/images/digitals/img-0182.jpg", "label": "Profile" },
-    { "src": "/images/digitals/img-0193.jpg", "label": "Back" },
-    { "src": "/images/digitals/img-0127.jpg", "label": "Close-Up" }
+    {
+      "src": "/images/digitals/img-0202.jpg",
+      "label": "Front"
+    },
+    {
+      "src": "/images/digitals/img-0208.jpg",
+      "label": "3/4"
+    },
+    {
+      "src": "/images/digitals/img-0182.jpg",
+      "label": "Profile"
+    },
+    {
+      "src": "/images/digitals/img-0193.jpg",
+      "label": "Back"
+    },
+    {
+      "src": "/images/digitals/img-0127.jpg",
+      "label": "Close-Up"
+    }
   ],
   "about": {
     "bio": "Swetha Kambham is a model based between New York and Philadelphia, working across editorial, street style, and lifestyle work. Currently freelance and open to bookings in both cities and beyond.",

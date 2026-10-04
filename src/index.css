@@ -635,3 +635,149 @@ p {
   font-size: 2rem;
   padding: 10px;
 }
+
+/* ---------- Local upload page (dev only) ---------- */
+
+.upload-page {
+  padding-bottom: 80px;
+}
+
+.upload-intro {
+  margin-top: 12px;
+  color: var(--ink-soft);
+  max-width: 640px;
+  line-height: 1.5;
+}
+
+.upload-publish,
+.upload-new,
+.upload-project__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.upload-publish {
+  padding: 16px;
+  border: 1px solid var(--line);
+  background: var(--bg-alt);
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.upload-new {
+  margin-bottom: 32px;
+}
+
+.upload-page input:not([type="file"]) {
+  font: inherit;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  background: white;
+  min-width: 0;
+}
+
+.upload-btn {
+  font: inherit;
+  font-size: 0.8rem;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  background: white;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.upload-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.upload-btn--primary {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--bg);
+}
+
+.upload-btn--danger {
+  color: #a3352b;
+  margin-left: auto;
+}
+
+.upload-error {
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  background: #fbe9e7;
+  color: #a3352b;
+  cursor: pointer;
+}
+
+.upload-status,
+.upload-empty {
+  margin-top: 12px;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+.upload-project {
+  border-top: 1px solid var(--line);
+  padding: 24px 0;
+}
+
+.upload-project.dragging {
+  outline: 2px dashed var(--ink-soft);
+  outline-offset: 4px;
+}
+
+.upload-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.upload-grid figure {
+  position: relative;
+  margin: 0;
+}
+
+.upload-grid img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top;
+}
+
+.upload-grid figure.is-cover img {
+  outline: 3px solid var(--ink);
+}
+
+.upload-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background: var(--ink);
+  color: var(--bg);
+  font-size: 0.65rem;
+  padding: 2px 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.upload-grid__actions {
+  display: flex;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+.upload-grid__actions button {
+  flex: 1;
+  font-size: 0.75rem;
+  padding: 4px 0;
+  border: 1px solid var(--line);
+  background: white;
+}
+
+.upload-grid__actions button:disabled {
+  opacity: 0.3;
+}
